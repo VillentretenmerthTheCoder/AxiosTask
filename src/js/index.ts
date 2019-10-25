@@ -2,7 +2,7 @@ document.getElementById("Submit").onclick = UpLowCase;
 
 function UpLowCase()
 {
-    let textEle = (<HTMLInputElement>document.getElementById("textinput")).value;
+    let textEle = (<HTMLInputElement>document.getElementById("textin")).value;
     let a:HTMLSelectElement = <HTMLSelectElement>document.getElementById("Select")
     let output = document.getElementById("preview");
     let finalText;
